@@ -23,19 +23,18 @@
 #  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 #  - docker push anzhukov/simple-node
 
-
-name: Workflows with large secrets
-
-on: push
-
+name: Node.js CI
+on: [push]
 jobs:
-  my-job:
-   name: Run .travis.yml build script
-   uses: zhukoff-av/simple-node@v1
-   with:
-     file: .travis.yml
-     steps: |
-       install
-       script
-     allow-failure: false
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '12.x'
+      - run: npm install
+      - run: npm run build
+      - run: npm test
 
