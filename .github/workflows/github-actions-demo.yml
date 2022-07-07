@@ -31,7 +31,7 @@ on: push
 jobs:
   my-job:
    name: Run .travis.yml build script
-   uses: ktomk/run-travis-yml@v1
+   uses: zhukoff-av/simple-node@v1
    with:
      file: .travis.yml
      steps: |
