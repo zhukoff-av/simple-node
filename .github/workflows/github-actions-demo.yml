@@ -36,8 +36,8 @@ jobs:
           node-version: '14'
       - run: npm install
 
-      - name: nothing needs to be installed
-      - name: no tests
+#       - name: nothing needs to be installed
+#       - name: no tests
 
 
 
