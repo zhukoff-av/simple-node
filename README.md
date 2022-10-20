@@ -18,3 +18,4 @@ This is a very simple, bare-bones NodeJS project created for you to use with Doc
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/zhukoff-av/simple-node)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zhukoff-av)](https://github.com/zhukoff-av/simple-node)
