@@ -16,4 +16,4 @@ This is a very simple, bare-bones NodeJS project created for you to use with Doc
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=zhukoff-av)]
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=zhukoff-av&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=zhukoff-av&repo=github-readme-stats)]([https://github.com/anuraghazra/github-readme-stats](https://github.com/zhukoff-av/simple-node))
